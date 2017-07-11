@@ -34,7 +34,7 @@ module.exports = {
         }),
         resolve({external: ['vue']}),
         commonjs(),
-        buble({objectAssign: 'Object.assign'}),
+        buble({objectAssign: 'Object.assign',  jsx: 'h'}),
         uglify({}, minify)
     ],
     globals: {
