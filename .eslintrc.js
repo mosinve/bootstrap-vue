@@ -101,10 +101,6 @@ module.exports = {
             }
         ],
         'line-comment-position': 'error',
-        'linebreak-style': [
-            'warn',
-            'unix'
-        ],
         'lines-around-comment': 'error',
         'lines-around-directive': 'error',
         'max-depth': 'error',
@@ -203,7 +199,7 @@ module.exports = {
         'no-trailing-spaces': 'off',
         'no-undef-init': 'error',
         'no-undefined': 'warn',
-        'no-underscore-dangle': 'error',
+        'no-underscore-dangle': 'warn',
         'no-unmodified-loop-condition': 'error',
         'no-unneeded-ternary': 'error',
         'no-unused-expressions': ['error', {'allowShortCircuit': true, 'allowTernary': true}],
